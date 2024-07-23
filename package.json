@@ -1,0 +1,40 @@
+{
+  "author": "artiphishle",
+  "bugs": {
+    "url": "https://github.com/artiphishle/ankh-types/issues"
+  },
+  "description": "Ankhorage shared types",
+  "engines": {
+    "node": "^20.15.x",
+    "pnpm": "^9.5.x"
+  },
+  "homepage": "https://github.com/artiphishle/ankh-types#readme",
+  "keywords": [
+    "ankhorage",
+    "ankh",
+    "enums",
+    "interfaces",
+    "shared",
+    "types"
+  ],
+  "license": "MIT",
+  "name": "ankh-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artiphishle/ankh-types.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prettier:validate": "pnpm dlx prettier --config .prettierrc --write .",
+    "prettier:write": "pnpm dlx prettier --config .prettierrc --write .",
+    "lint:fix": "tsc && pnpm eslint --fix",
+    "prepublish": "pnpm run build"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}
