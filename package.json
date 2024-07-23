@@ -18,6 +18,7 @@
     "types"
   ],
   "license": "MIT",
+  "main": "dist/index.js",
   "name": "ankh-types",
   "repository": {
     "type": "git",
@@ -36,5 +37,5 @@
     "prepublish": "pnpm run build"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
