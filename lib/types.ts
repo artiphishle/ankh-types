@@ -55,6 +55,15 @@ export interface IAnkhUi {
   p: TAnkhUiProps;
   uis?: IAnkhUi[];
 }
+
+export enum EAnkhUiSize {
+  Xl = "248px",
+  Lg = "128px",
+  Md = "96px",
+  Sm = "48px",
+  Xs = "24px"
+}
+
 export enum EAnkhUiVariant {
   Accent = 'accent',
   Default = 'default',
