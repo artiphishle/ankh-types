@@ -65,3 +65,49 @@ export enum EAnkhUiVariant {
   Success = 'success',
   Warning = 'warning',
 }
+
+/**
+ * Ankh Color
+ */
+export enum EAnkhColorUnit {
+  Hex,
+  Hsl,
+  Lab,
+  Rgb,
+}
+export enum EAnkhColorParserError {
+  InvalidFormat = 'Invalid format',
+  InvalidHexFormat = 'Invalid HEX format',
+  InvalidHslFormat = 'Invalid HSL format',
+  InvalidLabFormat = 'Invalid LAB format',
+  InvalidRgbFormat = 'Invalid RGB format',
+}
+
+export interface IAnkhColor {
+  readonly value: string;
+  readonly parsedValue: string | number[];
+  readonly unit: EAnkhColorUnit;
+}
+export interface IAnkhColorTone {
+  saturation: { min: number, max: number },
+  brightness: { min: number, max: number }
+}
+export interface IAnkhUiColorHueItem {
+  readonly value: string;
+  readonly className?: string;
+}
+export interface IAnkhUiColorHue {
+  readonly color: string;
+}
+
+/**
+ * Ankh Error
+ */
+export enum EAnkhErrorSeverity {
+  Fatal,
+}
+
+export interface IAnkhUseErrorOptions {
+  message: string;
+  severity?: EAnkhErrorSeverity;
+}
