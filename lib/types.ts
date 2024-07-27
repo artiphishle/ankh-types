@@ -20,12 +20,21 @@ export interface IAnkhAuthRole {
  */
 export interface IAnkhCmsConfig {
   pages: IAnkhCmsPage[];
+  theme: IAnkhCmsTheme;
   public?: TAnkhCmsStatic;
   styles?: TStyle[];
 }
 export interface IAnkhCmsPage {
   name: string;
   uis: IAnkhUi[];
+}
+export interface IAnkhCmsTheme {
+  colors: {
+    primary: IAnkhColor["value"];
+    secondary: IAnkhColor["value"];
+    accent: IAnkhColor["value"];
+    base: IAnkhColor["value"];
+  }
 }
 
 /**
