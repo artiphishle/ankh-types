@@ -2,7 +2,6 @@ export type THtmlElement = string;
 export type TCssProperty = string;
 export type TCssValue = string | number;
 export type TStyle = [THtmlElement, TCssProperty, TCssValue];
-
 export type TAnkhUiProps = Record<string, unknown>;
 export type TAnkhCmsStatic = Array<{ name: string; files: string[] }>;
 
@@ -87,6 +86,14 @@ export enum EAnkhUiVariant {
 /**
  * Ankh Color
  */
+export enum EAnkhColorTone {
+  Earth,
+  Fluorescent,
+  Jewel,
+  Neutral,
+  Pastel,
+  Shades
+}
 export enum EAnkhColorUnit {
   Hex,
   Hsl,
@@ -106,10 +113,12 @@ export interface IAnkhColor {
   readonly parsedValue: string | number[];
   readonly unit: EAnkhColorUnit;
 }
+/*
 export interface IAnkhColorTone {
   saturation: { min: number, max: number },
   brightness: { min: number, max: number }
 }
+*/
 export interface IAnkhUiColorHueItem {
   readonly value: string;
   readonly className?: string;
