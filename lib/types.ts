@@ -27,13 +27,17 @@ export interface IAnkhCmsPage {
   name: string;
   uis: IAnkhUi[];
 }
+export interface IAnkhColorHsl {
+  h: number;
+  s: number;
+  l: number;
+}
+export interface IAnkhCmsThemePalette {
+  colors: IAnkhColorHsl[]
+  active?: boolean
+}
 export interface IAnkhCmsTheme {
-  colors: {
-    primary: IAnkhColor["value"];
-    secondary: IAnkhColor["value"];
-    accent: IAnkhColor["value"];
-    base: IAnkhColor["value"];
-  }
+  palettes: IAnkhCmsThemePalette[];
 }
 
 /**
@@ -63,7 +67,6 @@ export interface IAnkhUi {
   p: TAnkhUiProps;
   uis?: IAnkhUi[];
 }
-
 export enum EAnkhUiSize {
   Xl = "248px",
   Lg = "128px",
@@ -71,7 +74,6 @@ export enum EAnkhUiSize {
   Sm = "48px",
   Xs = "24px"
 }
-
 export enum EAnkhUiVariant {
   Accent = 'accent',
   Default = 'default',
@@ -107,7 +109,6 @@ export enum EAnkhColorParserError {
   InvalidLabFormat = 'Invalid LAB format',
   InvalidRgbFormat = 'Invalid RGB format',
 }
-
 export interface IAnkhColor {
   readonly value: string;
   readonly parsedValue: string | number[];
@@ -133,7 +134,6 @@ export interface IAnkhUiColorHue {
 export enum EAnkhErrorSeverity {
   Fatal,
 }
-
 export interface IAnkhUseErrorOptions {
   message: string;
   severity?: EAnkhErrorSeverity;
