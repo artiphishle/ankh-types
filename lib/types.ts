@@ -89,12 +89,12 @@ export enum EAnkhUiVariant {
  * Ankh Color
  */
 export enum EAnkhColorTone {
-  Earth,
-  Fluorescent,
-  Jewel,
-  Neutral,
-  Pastel,
-  Shades
+  Earth = "Earth",
+  Fluorescent = "Fluorescent",
+  Jewel = "Jewel",
+  Neutral = "Neutral",
+  Pastel = "Pastel",
+  Shades = "Shade"
 }
 export enum EAnkhColorUnit {
   Hex,
