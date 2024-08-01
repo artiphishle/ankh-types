@@ -84,6 +84,9 @@ export enum EAnkhUiVariant {
   Success = 'success',
   Warning = 'warning',
 }
+export interface IAnkhUiIntrinsicProps {
+  _ui: { id: string; }
+}
 
 /**
  * Ankh Color
