@@ -98,7 +98,8 @@ export enum EAnkhColorTone {
   Jewel = "Jewel",
   Neutral = "Neutral",
   Pastel = "Pastel",
-  Shades = "Shade"
+  Shades = "Shade",
+  Custom = ""
 }
 export enum EAnkhColorUnit {
   Hex,
