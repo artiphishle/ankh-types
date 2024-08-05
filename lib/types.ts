@@ -33,6 +33,7 @@ export interface IAnkhColorHsl {
   l: number;
 }
 export interface IAnkhCmsThemePalette {
+  name: string;
   colors: IAnkhColorHsl[]
   active?: boolean
 }
