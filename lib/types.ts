@@ -20,6 +20,7 @@ export interface IAnkhAuthRole {
 export interface IAnkhCmsConfig {
   pages: IAnkhCmsPage[];
   theme: IAnkhCmsTheme;
+  apiKeys?: { [key: string]: string };
   public?: TAnkhCmsStatic;
   styles?: TStyle[];
 }
