@@ -78,6 +78,7 @@ export enum EAnkhUiSize {
 }
 export enum EAnkhUiVariant {
   Accent = 'accent',
+  Base = 'base',
   Default = 'default',
   Error = 'error',
   Info = 'info',
@@ -100,7 +101,7 @@ export enum EAnkhColorTone {
   Neutral = "Neutral",
   Pastel = "Pastel",
   Shades = "Shade",
-  Custom = ""
+  Custom = "Custom"
 }
 export enum EAnkhColorUnit {
   Hex,
