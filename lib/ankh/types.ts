@@ -66,6 +66,8 @@ export enum EAnkhAuthMode {
 }
 
 export enum EAnkhUiScreen {
+  AuthSignIn = "AuthSignIn",
+  AuthSignUp = "AuthSignUp",
   Profile = "Profile",
 }
 export interface IAnkhPage {
