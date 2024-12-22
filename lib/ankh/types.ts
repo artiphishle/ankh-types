@@ -79,16 +79,18 @@ export interface IAnkhPage {
   readonly icon?: string;
   readonly screen?: EAnkhUiScreen;
 }
+export interface IAnkhFonts {
+  readonly custom?: Record<string, string>;
+  readonly google?: string[];
+}
+
 export interface IAnkhTheme {
   readonly name: string;
   readonly colors: {
     readonly primary: { text: string; bg: string };
     readonly default: { text: string; bg: string };
   };
-  readonly fonts?: {
-    readonly custom?: string[];
-    readonly google?: string[];
-  };
+  readonly fonts?: IAnkhFonts;
   readonly active?: boolean;
   readonly logo?: string;
 }
