@@ -85,6 +85,10 @@ export interface IAnkhTheme {
     readonly primary: { text: string; bg: string };
     readonly default: { text: string; bg: string };
   };
+  readonly fonts?: {
+    readonly custom?: string[];
+    readonly google?: string[];
+  };
   readonly active?: boolean;
   readonly logo?: string;
 }
