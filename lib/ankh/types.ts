@@ -81,7 +81,7 @@ export interface IAnkhPage {
 }
 export interface IAnkhFonts {
   readonly custom?: Record<string, string>;
-  readonly google?: string[];
+  readonly google?: Record<string, string>;
 }
 
 export interface IAnkhTheme {
