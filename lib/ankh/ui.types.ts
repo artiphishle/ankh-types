@@ -1,5 +1,6 @@
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
+  Chat = "chat",
   Text = "text",
 }
 /*** @enum EAnkhUiScreen */
