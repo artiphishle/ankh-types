@@ -1,12 +1,12 @@
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
-  Chat = "chat",
   Text = "text",
 }
 /*** @enum EAnkhUiScreen */
 export enum EAnkhUiScreen {
   AuthSignIn = "AuthSignIn",
   AuthSignUp = "AuthSignUp",
+  Chat = "Chat",
   Profile = "Profile",
 }
 
