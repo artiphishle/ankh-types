@@ -8,6 +8,7 @@ export enum EAnkhUiScreen {
   AuthSignUp = "AuthSignUp",
   Chat = "Chat",
   Profile = "Profile",
+  Settings = "Settings",
 }
 
 /*** @interface IAnkhUi */
