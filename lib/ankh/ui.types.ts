@@ -1,7 +1,13 @@
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
-  Text = "text",
+  Button = "button",
+  Card = "card",
+  Flex = "flex",
   Form = "form",
+  Grid = "grid",
+  Image = "image",
+  List = "list",
+  Text = "text",
 }
 /*** @enum EAnkhUiScreen */
 export enum EAnkhUiScreen {
