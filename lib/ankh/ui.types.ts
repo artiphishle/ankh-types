@@ -7,6 +7,7 @@ export enum EAnkhUi {
   Grid = "grid",
   Image = "image",
   List = "list",
+  Maps = "maps",
   Text = "text",
 }
 /*** @enum EAnkhUiScreen */
