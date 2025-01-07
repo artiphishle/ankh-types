@@ -1,4 +1,4 @@
-import { EAnkhUiScreen, type IAnkhUi } from "./ui.types";
+import { EAnkhUiPlugin, type IAnkhUi } from "./ui.types";
 
 /*** @interface IAnkhPage */
 export interface IAnkhPage {
@@ -7,6 +7,6 @@ export interface IAnkhPage {
   readonly path: string;
   readonly title: string;
   readonly icon?: string;
-  readonly screen?: EAnkhUiScreen;
+  readonly plugin?: EAnkhUiPlugin;
   readonly uis?: IAnkhUi[];
 }

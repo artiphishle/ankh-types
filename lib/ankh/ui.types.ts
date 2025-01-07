@@ -13,8 +13,8 @@ export enum EAnkhUi {
   Maps = "maps",
   Text = "text",
 }
-/*** @enum EAnkhUiScreen */
-export enum EAnkhUiScreen {
+/*** @enum EAnkhUiPlugin */
+export enum EAnkhUiPlugin {
   AuthSignIn = "AuthSignIn",
   AuthSignUp = "AuthSignUp",
   Chat = "Chat",
