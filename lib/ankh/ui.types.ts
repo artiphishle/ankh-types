@@ -4,6 +4,7 @@ export enum EAnkhUi {
   Card = "card",
   CardArticle = "cardArticle",
   Carousel = "carousel",
+  Cart = "cart",
   Flex = "flex",
   Form = "form",
   Grid = "grid",
