@@ -36,4 +36,5 @@ export interface IAnkhUiCardArticle {
   readonly title: string;
   readonly description: string;
   readonly photo: string;
+  readonly price: number;
 }
