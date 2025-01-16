@@ -1,3 +1,5 @@
+import { TUniqueIdentifier } from "./basic.types";
+
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
   Button = "button",
@@ -25,6 +27,7 @@ export enum EAnkhUiPlugin {
 
 /*** @interface IAnkhUi */
 export interface IAnkhUi {
+  readonly id: TUniqueIdentifier;
   readonly ui: EAnkhUi;
   readonly props?: any;
   readonly uis?: IAnkhUi[];
