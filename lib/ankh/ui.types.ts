@@ -13,6 +13,7 @@ export enum EAnkhUi {
   Image = "image",
   List = "list",
   Maps = "maps",
+  Media = "media",
   Text = "text",
   Upload = "upload",
 }
