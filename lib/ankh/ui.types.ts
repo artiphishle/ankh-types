@@ -14,6 +14,7 @@ export enum EAnkhUi {
   List = "list",
   Maps = "maps",
   Text = "text",
+  Upload = "upload",
 }
 /*** @enum EAnkhUiPlugin */
 export enum EAnkhUiPlugin {
