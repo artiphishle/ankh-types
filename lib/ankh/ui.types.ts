@@ -10,6 +10,7 @@ export enum EAnkhUi {
   Flex = "flex",
   Form = "form",
   Grid = "grid",
+  Image = "image",
   List = "list",
   Maps = "maps",
   Media = "media",
