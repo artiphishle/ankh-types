@@ -10,7 +10,6 @@ export enum EAnkhUi {
   Flex = "flex",
   Form = "form",
   Grid = "grid",
-  Image = "image",
   List = "list",
   Maps = "maps",
   Media = "media",
@@ -26,16 +25,18 @@ export enum EAnkhUiPlugin {
   Settings = "Settings",
   Shop = "Shop",
 }
+/*** @enum EAnkhUiVariant */
+export enum EAnkhUiVariant {
+  Primary = "primary",
+  Secondary = "secondary",
+}
 
-/*** @interface IAnkhUi */
 export interface IAnkhUi {
   readonly id: TUniqueIdentifier;
   readonly ui: EAnkhUi;
   readonly props?: any;
   readonly uis?: IAnkhUi[];
 }
-
-/*** @interface IAnkhUiCardArticle */
 export interface IAnkhUiCardArticle {
   readonly id: string;
   readonly title: string;
