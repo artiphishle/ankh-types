@@ -20,4 +20,5 @@ export interface IAnkhFormField {
   readonly minLen?: number;
   readonly placeholder?: string;
   readonly type?: EAnkhFormFieldType;
+  readonly onSubmit?: () => void;
 }
