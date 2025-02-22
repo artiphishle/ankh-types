@@ -38,5 +38,5 @@
     "prepublish": "pnpm run build"
   },
   "types": "dist/index.types.d.ts",
-  "version": "1.8.1"
+  "version": "1.8.2"
 }

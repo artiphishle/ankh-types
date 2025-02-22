@@ -14,6 +14,7 @@ export enum EAnkhFormFieldType {
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
   readonly id: string;
+  readonly defaultValue?: string;
   readonly label?: string;
   readonly maxLen?: number;
   readonly minLen?: number;
