@@ -14,6 +14,7 @@ export enum EAnkhUi {
   List = "list",
   Maps = "maps",
   Media = "media",
+  PushNotificationButton = "pushNotificationButton",
   Text = "text",
   Upload = "upload",
 }
