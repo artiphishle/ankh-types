@@ -1,4 +1,4 @@
-import { IAnkhFormField } from "./form.types";
+import { IAnkhFormField, TAnkhFormUserAttribute } from "./form.types";
 
 /*** @enum EAnkhBackendType */
 export enum EAnkhBackendType {
@@ -17,6 +17,6 @@ export interface IAnkhBackend {
   readonly type: EAnkhBackendType;
   readonly auth: {
     readonly loginWith: EAnkhBackendAuthLoginWith[];
-    readonly userAttributes: IAnkhFormField[];
+    readonly userAttributes: TAnkhFormUserAttribute;
   };
 }

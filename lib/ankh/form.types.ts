@@ -26,6 +26,12 @@ export enum EAnkhFormFieldType {
   Week = "week",
 }
 
+/*** @interface IAnkhFormUserAttribute */
+export type TAnkhFormUserAttribute = Record<
+  IAnkhFormField["id"],
+  TUniqueIdentifier
+>;
+
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
   readonly id: TUniqueIdentifier;
