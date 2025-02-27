@@ -32,12 +32,13 @@ export type TAnkhFormUserAttribute = Array<IAnkhFormField["id"]>;
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
   readonly id: TUniqueIdentifier;
+  readonly name: string;
   readonly defaultValue?: string;
   readonly label?: string;
   readonly maxLength?: number;
   readonly minLength?: number;
-  readonly placeholder?: string;
-  readonly type?: EAnkhFormFieldType;
-  readonly required?: boolean;
   readonly pattern?: string;
+  readonly placeholder?: string;
+  readonly required?: boolean;
+  readonly type?: EAnkhFormFieldType;
 }
