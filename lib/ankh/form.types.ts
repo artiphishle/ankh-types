@@ -36,5 +36,5 @@ export interface IAnkhFormField {
   readonly placeholder?: string;
   readonly type?: EAnkhFormFieldType;
   readonly required?: boolean;
-  readonly pattern?: RegExp; // Optional regex validation
+  readonly pattern?: string;
 }
