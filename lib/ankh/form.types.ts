@@ -1,8 +1,30 @@
-import { HTMLInputTypeAttribute } from "react";
 import { TUniqueIdentifier } from "./basic.types";
 
-/*** @type TAnkhFormFieldType */
-export type TAnkhFormFieldType = HTMLInputTypeAttribute;
+/*** @enum EAnkhFormFieldType */
+export enum EAnkhFormFieldType {
+  Button = "button",
+  Checkbox = "checkbox",
+  Color = "color",
+  Date = "date",
+  DatetimeLocal = "datetime-local",
+  Email = "email",
+  File = "file",
+  Hidden = "hidden",
+  Image = "image",
+  Month = "month",
+  Number = "number",
+  Password = "password",
+  Radio = "radio",
+  Range = "range",
+  Reset = "reset",
+  Search = "search",
+  Submit = "submit",
+  Tel = "tel",
+  Text = "text",
+  Time = "time",
+  Url = "url",
+  Week = "week",
+}
 
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
@@ -12,7 +34,7 @@ export interface IAnkhFormField {
   readonly maxLength?: number;
   readonly minLength?: number;
   readonly placeholder?: string;
-  readonly type?: TAnkhFormFieldType;
+  readonly type?: EAnkhFormFieldType;
   readonly required?: boolean;
   readonly pattern?: RegExp; // Optional regex validation
 }
