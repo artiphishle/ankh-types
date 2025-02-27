@@ -40,6 +40,6 @@
   "types": "dist/index.types.d.ts",
   "version": "1.8.8",
   "dependencies": {
-    "@types/react": "^19.1.0"
+    "@types/react": "^1.9.0"
   }
 }
