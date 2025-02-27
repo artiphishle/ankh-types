@@ -27,6 +27,7 @@
   "devDependencies": {
     "@aws-amplify/backend-auth": "^1.4.2",
     "@types/node": "^20.14.11",
+    "@types/react": "^19.0.10",
     "prettier": "^3.3.3",
     "typescript": "^5.5.3"
   },
@@ -38,8 +39,5 @@
     "prepublish": "pnpm run build"
   },
   "types": "dist/index.types.d.ts",
-  "version": "1.8.8",
-  "dependencies": {
-    "@types/react": "^1.9.0"
-  }
+  "version": "1.9.0"
 }
