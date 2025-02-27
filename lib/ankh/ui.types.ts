@@ -3,6 +3,7 @@ import { TUniqueIdentifier } from "./basic.types";
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
   Button = "button",
+  Camera = "camera",
   Card = "card",
   CardArticle = "cardArticle",
   Carousel = "carousel",
