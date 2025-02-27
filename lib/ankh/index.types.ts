@@ -1,4 +1,4 @@
-export * from "./auth.types";
+export * from "./backend.types";
 export * from "./basic.types";
 export * from "./config.types";
 export * from "./form.types";
