@@ -1,25 +1,18 @@
-/*** @enum EAnkhFormFieldType */
-export enum EAnkhFormFieldType {
-  Checkbox = "checkbox",
-  Date = "date",
-  Email = "email",
-  Number = "number",
-  Password = "password",
-  Phone = "phone",
-  Radio = "radio",
-  Text = "text",
-  Textarea = "textarea",
-}
+import { HTMLInputTypeAttribute } from "react";
+import { TUniqueIdentifier } from "./basic.types";
+
+/*** @type TAnkhFormFieldType */
+export type TAnkhFormFieldType = HTMLInputTypeAttribute;
 
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
-  readonly id: string;
+  readonly id: TUniqueIdentifier;
   readonly defaultValue?: string;
   readonly label?: string;
-  readonly maxLen?: number;
-  readonly minLen?: number;
+  readonly maxLength?: number;
+  readonly minLength?: number;
   readonly placeholder?: string;
-  readonly type?: EAnkhFormFieldType;
-  readonly onChangeText?: (text: string) => void;
-  readonly onSubmit?: () => void;
+  readonly type?: TAnkhFormFieldType;
+  readonly required?: boolean;
+  readonly pattern?: RegExp; // Optional regex validation
 }

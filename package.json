@@ -6,7 +6,7 @@
   "description": "Ankhorage shared types",
   "engines": {
     "node": "^22.12.x",
-    "pnpm": "^9.5.x"
+    "pnpm": "^10.5.x"
   },
   "homepage": "https://github.com/artiphishle/ankh-types#readme",
   "keywords": [
@@ -38,5 +38,8 @@
     "prepublish": "pnpm run build"
   },
   "types": "dist/index.types.d.ts",
-  "version": "1.8.8"
+  "version": "1.8.8",
+  "dependencies": {
+    "@types/react": "^19.1.0"
+  }
 }
