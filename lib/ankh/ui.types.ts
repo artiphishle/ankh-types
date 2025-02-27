@@ -8,6 +8,7 @@ export enum EAnkhUi {
   CardArticle = "cardArticle",
   Carousel = "carousel",
   Cart = "cart",
+  DarkModeSwitcher = "darkModeSwitcher",
   Flex = "flex",
   Form = "form",
   Grid = "grid",
@@ -15,8 +16,11 @@ export enum EAnkhUi {
   List = "list",
   Maps = "maps",
   Media = "media",
+  NavSwitcher = "navSwitcher",
   PushNotificationButton = "pushNotificationButton",
   Text = "text",
+  ThemeSwitcher = "themeSwitcher",
+
   Upload = "upload",
 }
 /*** @enum EAnkhUiPlugin */
