@@ -39,5 +39,5 @@
     "prepublish": "pnpm run build"
   },
   "types": "dist/index.types.d.ts",
-  "version": "1.9.4"
+  "version": "1.9.5"
 }

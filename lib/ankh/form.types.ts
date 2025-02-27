@@ -27,10 +27,7 @@ export enum EAnkhFormFieldType {
 }
 
 /*** @interface IAnkhFormUserAttribute */
-export type TAnkhFormUserAttribute = Record<
-  IAnkhFormField["id"],
-  TUniqueIdentifier
->;
+export type TAnkhFormUserAttribute = Array<IAnkhFormField["id"]>;
 
 /*** @interface IAnkhFormField */
 export interface IAnkhFormField {
