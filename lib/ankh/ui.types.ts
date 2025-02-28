@@ -13,6 +13,7 @@ export enum EAnkhUi {
   Form = "form",
   Grid = "grid",
   Image = "image",
+  LanguageSwitcher = "languageSwitcher",
   List = "list",
   Maps = "maps",
   Media = "media",
