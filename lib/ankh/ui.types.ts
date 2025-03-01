@@ -1,5 +1,7 @@
 import { TUniqueIdentifier } from "./basic.types";
 
+/*** @enum EAnkhUiCharts */
+export enum EAnkhUiCharts {}
 /*** @enum EAnkhUi */
 export enum EAnkhUi {
   Button = "button",
@@ -21,8 +23,11 @@ export enum EAnkhUi {
   PushNotificationButton = "pushNotificationButton",
   Text = "text",
   ThemeSwitcher = "themeSwitcher",
-
   Upload = "upload",
+  //
+  LineChart = "lineChart",
+  BarChart = "barChart",
+  PieChart = "pieChart",
 }
 /*** @enum EAnkhUiPlugin */
 export enum EAnkhUiPlugin {
