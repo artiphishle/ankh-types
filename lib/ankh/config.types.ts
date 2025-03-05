@@ -10,6 +10,7 @@ export enum EAnkhNavType {
 
 /*** @interface IAnkhConfig */
 export interface IAnkhConfig {
+  readonly app: { name: string };
   readonly nav: { type: EAnkhNavType };
   readonly themes: IAnkhTheme[];
   readonly backend: IAnkhBackend;
