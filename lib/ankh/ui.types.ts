@@ -1,8 +1,5 @@
 import { TUniqueIdentifier } from "./basic.types";
 
-/*** @enum EAnkhUiCharts */
-export enum EAnkhUiCharts {}
-/*** @enum EAnkhUi */
 export enum EAnkhUi {
   Button = "button",
   Camera = "camera",
@@ -29,16 +26,6 @@ export enum EAnkhUi {
   BarChart = "barChart",
   PieChart = "pieChart",
 }
-/*** @enum EAnkhUiPlugin */
-export enum EAnkhUiPlugin {
-  AuthSignIn = "AuthSignIn",
-  AuthSignUp = "AuthSignUp",
-  Chat = "Chat",
-  Profile = "Profile",
-  Settings = "Settings",
-  Shop = "Shop",
-}
-/*** @enum EAnkhUiVariant */
 export enum EAnkhUiVariant {
   Primary = "primary",
   Secondary = "secondary",
