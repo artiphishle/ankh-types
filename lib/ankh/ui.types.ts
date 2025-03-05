@@ -7,6 +7,7 @@ export enum EAnkhUi {
   CardArticle = "cardArticle",
   Carousel = "carousel",
   Cart = "cart",
+  Chessboard = "chessboard",
   DarkModeSwitcher = "darkModeSwitcher",
   Flex = "flex",
   Form = "form",
