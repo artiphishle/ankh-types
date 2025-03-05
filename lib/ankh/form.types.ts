@@ -21,6 +21,7 @@ export enum EAnkhFormFieldType {
   Submit = "submit",
   Tel = "tel",
   Text = "text",
+  Textarea = "textarea",
   Time = "time",
   Url = "url",
   Week = "week",
