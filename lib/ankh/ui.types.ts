@@ -1,4 +1,5 @@
 import { TUniqueIdentifier } from "./basic.types";
+import { EAnkhUiRole } from "./page.types";
 
 export enum EAnkhUi {
   Button = "button",
@@ -36,6 +37,7 @@ export interface IAnkhUi {
   readonly id: TUniqueIdentifier;
   readonly ui: EAnkhUi;
   readonly props?: any;
+  readonly roles?: EAnkhUiRole[];
   readonly uis?: IAnkhUi[];
 }
 export interface IAnkhUiCardArticle {
