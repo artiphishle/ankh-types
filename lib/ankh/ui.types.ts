@@ -20,6 +20,7 @@ export enum EAnkhUi {
   Media = "media",
   NavSwitcher = "navSwitcher",
   PushNotificationButton = "pushNotificationButton",
+  Table = "table",
   Text = "text",
   ThemeSwitcher = "themeSwitcher",
   Upload = "upload",
